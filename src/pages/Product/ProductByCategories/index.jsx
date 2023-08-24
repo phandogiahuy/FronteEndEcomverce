@@ -12,7 +12,7 @@ import {
   Filter,
   FilterContainer,
   FilterText,
-} from "./style-productList";
+} from "./style";
 
 const ProductList = () => {
   // const location = useLocation();

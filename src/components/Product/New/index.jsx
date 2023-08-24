@@ -12,7 +12,7 @@ import {
   Name,
   PriceFirst,
   Title,
-} from "./Style-NewProduct";
+} from "./style";
 
 const Product = ({ item }) => {
   const rate = [];

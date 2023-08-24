@@ -28,7 +28,7 @@ import {
   Right,
   SearchComponent,
   Wrapper,
-} from "./style-nav";
+} from "./style";
 
 const Navbar = () => {
   const products = useSelector((state) => state.cart.products);

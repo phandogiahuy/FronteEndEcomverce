@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useGetProductByCat } from "../../../hooks/Queries/Product/useGetProductByCat";
 import { useGetProducts } from "../../../hooks/Queries/Product/useGetProducts";
 import Product from "../New";
-import { Container } from "./Style-PopularProduct";
+import { Container } from "./style";
 
 const PopularProduct = ({ cat, sort }) => {
   // const queryClient = useQueryClient();

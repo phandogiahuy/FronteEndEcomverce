@@ -56,7 +56,7 @@ import {
   TypeItem,
   TypeProduct,
   Wrapper,
-} from "./Style-Cart";
+} from "./style";
 
 const Cart = () => {
   const products = useSelector((state) => state.cart.products);
