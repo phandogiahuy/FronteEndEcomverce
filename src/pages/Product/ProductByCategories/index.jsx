@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import Announcement from "../../../components/Annoucement";
 import Footer from "../../../components/Footer";
 import Navbar from "../../../components/NavBar";
-import PopularProduct from "../../../components/Product/popularProduct";
+import PopularProduct from "../../../components/Product/Popular";
 import {
   Container,
   Filter,
