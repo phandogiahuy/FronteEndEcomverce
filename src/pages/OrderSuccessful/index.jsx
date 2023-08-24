@@ -4,7 +4,7 @@ import { useQueryClient } from "react-query";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-import Footer from "../../components/Footer/footer";
+import Footer from "../../components/Footer";
 import MySteps from "../../components/Steps";
 import { GET_USER } from "../../constant/queryKey";
 import { clearCart } from "../../reduxToolkit/cartRedux";
