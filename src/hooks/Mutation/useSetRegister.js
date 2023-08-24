@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const register = async ({ username, email, password }) => {
   const res = await axios.post(
-    `https://ecommercecoffee.onrender.com/api/auth/register/`,
+    `https://ecommercecafe.onrender.com/api/auth/register/`,
     {
       username,
       email,

@@ -12,7 +12,7 @@ const getUrlMoMo = async ({
   payment,
 }) => {
   const { data } = await axios.post(
-    "https://ecommercecoffee.onrender.com/api/momo",
+    "https://ecommercecafe.onrender.com/api/momo",
     {
       name,
       phone,

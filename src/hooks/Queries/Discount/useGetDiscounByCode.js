@@ -4,7 +4,7 @@ import { useMutation } from "react-query";
 
 const getDiscount = async ({ code }) => {
   const { data } = await axios.get(
-    `https://ecommercecoffee.onrender.com/api/discount/find/${code}`
+    `https://ecommercecafe.onrender.com/api/discount/find/${code}`
   );
   return data;
 };

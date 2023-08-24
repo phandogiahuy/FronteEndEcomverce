@@ -5,7 +5,7 @@ import { GET_PRODUCTS } from "../../../constant/queryKey";
 
 const getProducts = async ({ pageSize, page }) => {
   const { data } = await axios.get(
-    `https://ecommercecoffee.onrender.com/api/product`,
+    `https://ecommercecafe.onrender.com/api/product`,
     {
       params: {
         pageSize,

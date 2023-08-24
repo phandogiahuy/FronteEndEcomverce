@@ -15,7 +15,7 @@ const order = async ({
   userId,
 }) => {
   const res = await axios.post(
-    "https://ecommercecoffee.onrender.com/api/order/",
+    "https://ecommercecafe.onrender.com/api/order/",
     {
       name,
       phone,

@@ -5,7 +5,7 @@ import { GET_USER_ID } from "../../../constant/queryKey";
 
 const getUserById = async (id) => {
   const { data } = await axios.get(
-    `https://ecommercecoffee.onrender.com/api/user/find/${id}`
+    `https://ecommercecafe.onrender.com/api/user/find/${id}`
   );
   return data;
 };

@@ -5,7 +5,7 @@ import { GET_REVENUE } from "../../../constant/queryKey";
 
 const getRevenue = async () => {
   const { data } = await axios.get(
-    `https://ecommercecoffee.onrender.com/api/revenue`
+    `https://ecommercecafe.onrender.com/api/revenue`
   );
   return data;
 };

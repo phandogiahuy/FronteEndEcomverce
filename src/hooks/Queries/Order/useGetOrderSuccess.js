@@ -5,7 +5,7 @@ import { GET_ORDER_SUCCESS } from "../../../constant/queryKey";
 
 const getOrder = async () => {
   const { data } = await axios.get(
-    `https://ecommercecoffee.onrender.com/api/order/success`
+    `https://ecommercecafe.onrender.com/api/order/success`
   );
   return data;
 };

@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://ecommercecoffee.onrender.com",
+        target: "https://ecommercecafe.onrender.com",
         changeOrigin: true,
       },
     },
