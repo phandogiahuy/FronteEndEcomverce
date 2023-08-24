@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 
 import Announcement from "../../../components/Annoucement";
-import Footer from "../../../components/Footer/Footer";
+import Footer from "../../../components/Footer/footer";
 import Navbar from "../../../components/NavBar";
-import PopularProduct from "../../../components/Product/PopularProduct";
+import PopularProduct from "../../../components/Product/popularProduct";
 import {
   Container,
   Filter,

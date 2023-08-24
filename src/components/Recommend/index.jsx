@@ -1,7 +1,7 @@
 import { Skeleton } from "antd";
 
 import { useGetProductByCat } from "../../hooks/Queries/Product/useGetProductByCat";
-import RecommendList from "./RecommendList";
+import RecommendList from "./recommendList";
 import { Wrapper } from "./style-recommend";
 
 const RecommendProduct = ({ products }) => {

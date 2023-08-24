@@ -15,8 +15,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 import Announcement from "../../components/Annoucement";
-import Footer from "../../components/Footer/Footer";
-import Newsletter from "../../components/Footer/Newsletter";
+import Footer from "../../components/Footer/footer";
+import Newsletter from "../../components/Footer/newsletter";
 import MySteps from "../../components/Steps";
 import { useGetDiscountByCode } from "../../hooks/Queries/Discount/useGetDiscounByCode";
 import {
