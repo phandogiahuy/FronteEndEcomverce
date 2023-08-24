@@ -2,7 +2,7 @@ import { Carousel } from "antd";
 
 import { sliderItems } from "../../data";
 import Categories from "../Categories";
-import { Container, Desc, InforContainer, Slide, Title } from "./style";
+import { Container } from "./Style";
 
 const contentStyle = {
   margin: 0,
