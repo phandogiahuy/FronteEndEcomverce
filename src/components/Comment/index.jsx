@@ -35,6 +35,7 @@ const CommentComponent = ({ reviews, id, name }) => {
   const handleClickNavigate = () => {
     navigate("/login");
   };
+  console.log(userID.includes(user.data._id));
   return (
     <Card
       title={
