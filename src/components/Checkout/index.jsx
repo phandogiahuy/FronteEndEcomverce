@@ -26,7 +26,7 @@ const CheckoutComponent = () => {
         mail,
         address,
         products,
-        total: pricetotal,
+        total: Math.ceil(pricetotal, 1),
         payment,
       })
     );
@@ -38,7 +38,7 @@ const CheckoutComponent = () => {
       address,
       products,
       shipping,
-      total: pricetotal,
+      total: Math.ceil(pricetotal, 0),
       payment,
       userId: id,
     });
@@ -155,7 +155,7 @@ const CheckoutComponent = () => {
             <h4 className="ml-10 font-bold"> Shipping: {shipping}$</h4>
             <center className="text-2xl font-bold">
               {" "}
-              Total: {pricetotal}${" "}
+              Total: {Math.ceil(pricetotal, 1)}${" "}
             </center>
           </div>
         </InforProduct>
